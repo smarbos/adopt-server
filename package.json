@@ -1,0 +1,31 @@
+{
+  "name": "adopt-server",
+  "version": "0.0.1",
+  "description": "adopteitor-server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node api/app.js",
+    "dev": "nodemon api/app.js",
+    "test": "jasmine-node ./tests",
+    "eslint": "./node_modules/.bin/eslint api"
+  },
+  "keywords": [
+    "adopteitor"
+  ],
+  "author": "Damian Mantuano",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.1.5",
+    "body-parser": "^1.16.1",
+    "dotenv": "^4.0.0",
+    "express": "^4.14.1",
+    "mysql": "^2.13.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.16.1",
+    "eslint-config-standard": "^6.2.1",
+    "eslint-plugin-promise": "^3.4.2",
+    "eslint-plugin-standard": "^2.0.1",
+    "nodemon": "^1.11.0"
+  }
+}
